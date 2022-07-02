@@ -1,0 +1,641 @@
+/*
+Boton + Header + Fondo
+	#03b044 (verde)
+-----------------------
+Contador
+	#025923	(verde)
+-----------------------
+Fondo
+	#ffffff	(Blanco)
+-----------------------
+Fondo + footer
+	#f5f6fa	(Gris)
+-----------------------
+Social bar
+	#9a9a9a
+*/
+
+body, html {
+  height: 100%;
+  margin: 0px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+.icon-bar {
+  position: fixed;
+  right: 0%;
+  top: 50%;
+  z-index: 99;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/* Style the icon bar links */
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+/* Style the social media icons with color, if you want */
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.facebook, .twitter, .tiktok, .linkedin, .youtube {
+  background: #9a9a9a;
+  color: white;
+}
+
+.header p {
+  padding: 8px; /* some padding */
+  margin: 0px;
+}
+
+.header {
+    padding: auto; /* some padding */
+    margin: 0;
+    text-align: center; /* center the text */
+    background: #03b044; /* green background */
+    color: white; /* white text color */
+  }
+
+  .contenido{
+    max-width: 960px;
+    margin: auto;
+  }
+
+  .bg-img1 {
+    /* Imagen de Fondo */
+    background-image: url("img/Prb\ Header.png");
+  }
+
+  /* Seccion 1: Logo y Encabezado ----------------------- */
+  .sec1{
+    background-color: #f5f6fa; 
+    padding: 0px;
+   }
+
+   nav{
+     display: block;
+     /*  float: left; */
+   }
+
+   nav a{
+     float: right;
+     align-self: center;
+     margin-top: 23px;
+     padding: 8px;
+     text-align: center;
+     color: #ffffff;
+     font-weight: 600;
+     text-decoration: none;
+   } 
+
+   .divtop1{
+     width: 33.33%;
+   }
+
+   .divtop2{
+    padding-left: 40%;
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+   }
+
+   .logotop{
+     padding: 20px;
+     max-width: 30%;
+   }
+
+   .textoh1{
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+   }
+
+   .btn1{
+    background-color: #03b044;
+    color: white;
+    font-weight: bold;
+    border-color: #025923;
+    border-radius: 12%;
+    padding: 13px 20px;
+  }
+
+  /* Seccion 2: Contador ----------------------- */
+  .sec2{
+    background-color: #025923; 
+    padding: 4px;
+   }
+
+   .textsec2{
+     color: #f1f1f1;
+     font-weight: bold;
+     font-size: 25px;
+   }
+   
+   .containersec2{
+    display: flex; /* Change the display to block, for responsive reasons (see below) */
+    text-align: center; /* Center the text */
+    text-decoration: none; /* Remove underline */
+    align-items: center;
+   }
+
+  .containersec2 p{
+    margin: auto;
+  }
+
+  .textsec2{
+    width: 33%;
+    padding-left: 3px;
+  }
+
+  .divsec2{
+   width: 58%;
+  }
+
+  #contador {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 3em;
+    color: white;
+    padding: 20px;
+    margin: auto;
+    }
+
+  #contador div {
+    display: inline-block;
+    min-width: 90px;
+    padding: 15px;
+    border-right: 3px solid #03b044;
+    margin: 15px;
+  }
+
+  #contador div span {
+    display: block;
+    margin-top: 15px;
+    font-size: .35em;
+    font-weight: 400;
+    color: #03b044;
+  }
+
+  /* Seccion 3: Div1 ----------------------- */
+  .sec3{
+    background-color: #ffffff; 
+    padding: 2px;
+   }
+
+   .conteinersec3{
+     display: flex;
+   }
+
+   .conteinersec3left, .conteinersec3right{
+    width: 50%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-bottom: 25px;
+    margin-top: 25px;
+   }
+
+  /* Seccion 4: Fichas ----------------------- */
+  .sec4{
+    background-color: #f5f6fa; 
+    padding: 2px;
+  }
+
+  .titlsec4, .txtsec4{
+    text-align: center;
+  }
+
+  .titlsec4{
+    text-decoration: solid;
+    font-weight: bold;
+    font-size: 5vmax;
+    margin-bottom: auto;
+  }
+
+  .txtsec4{
+    padding: 1vmin 28%;
+    font-size: 2vmin;
+  }
+  
+  /* Add some padding inside the card container */
+  .cardcontainer {
+    padding: 2px 16px;
+    position: unset;
+    background-color: #03b044;
+  }
+
+  .cards{
+    display: flex;                  /* establish flex container */
+    flex-direction: row;            /* default value; can be omitted */
+    flex-wrap: nowrap;              /* default value; can be omitted */
+    justify-content: space-evenly; 
+    margin: 57px;
+  }
+
+  .cardtext{
+    color: #ddd;
+  }
+
+  .card{
+    width: 200px
+  }
+
+  .btn2align{
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .btn2{
+    background-color: #ffffff;
+    color: #000;
+    border-color: #9a9a9a;
+    border-radius: 5%;
+    padding: 22px 57px;
+    margin: 25px;
+  }
+
+  /* Seccion 5: Div con Boton ----------------------- */
+  .sec5{
+    background-color: #03b044; 
+    padding: 2px;
+    display: flex;
+   }
+
+  .sec5right{
+    background-image: url(img/Rectángulo\ 88.png);;
+  }
+
+  .sec5left{
+    display: flex;
+    width: 50%;
+    padding: 5%;
+    font-size: x-large;
+    color: white;
+    flex-direction: column;
+  }
+
+  .btnsec5W, .btnsec5T{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-color: white;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+
+  .btnsec5W{
+  background-color: white;
+  }
+
+  .btnsec5T{
+  background-color: transparent;
+  }
+
+  /* Seccion 6: Videos ----------------------- */
+
+  .sec6{
+    background-color: #f5f6fa; 
+    padding: 2px;
+   }
+
+   .videocontainer{
+    margin: 40px;
+   }
+
+   .videotitle{
+     margin-top: 90px;
+     font-size: 3vmax;
+     text-align: center;
+   }
+
+   div.gallery {
+    border: transparent 1px;
+  }
+  
+  div.gallery:hover {
+    border: 1px dotted #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .responsive {
+    padding: 20px 4px;
+    margin: 10px;
+    float: left;
+    width: 30.99999%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .videobnt{
+    padding:10px 45px;
+    color: white;
+    background-color: #03b044;
+    border-radius: 5px;
+    border-color: #03b044;
+    margin-bottom: 20px;
+  }
+
+  /* Seccion 7: Formulario ----------------------- */
+
+  .bg-img7{
+    /* Imagen de Fondo */
+      background-image: url("img/Join\ Us.png");
+  }
+
+  .bg-img9, .bg-img8, .bg-img7, .bg-img1 {
+  
+    /* Control the height of the image */
+    min-height: 483px;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .secform{
+    padding-left: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: white;
+  }
+
+  /* Add styles to the form container */
+  .formcontainer {
+    right: 0;
+    margin: 20px;
+    margin-left: 0px;
+  }
+  
+  /* Full-width input fields */
+    input[type=text]{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 5px 22px 5px;
+    border: none;
+    background: #f1f1f1;
+    border-radius: 5px;
+  }
+  
+  input[type=text]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  .mensaje{
+    height: 154px;
+    place-self: auto;
+  }
+
+  .mensaje::placeholder {
+    font-size: 1.2em;
+  }
+
+  .formrows{
+    display: flex;
+    width: 100%;
+  }
+  /* Set a style for the submit button */
+  .btnform {
+    background-color: #03b044;
+    color: white;
+    border-radius: 5px;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 40%;
+  }
+  
+  .btnform:hover {
+    background-color: #04AA6D;
+  }
+
+  /* Seccion 8: Text button + Celular ----------------------- */
+  .bg-img8{
+   background-color: #f5f6fa;
+   background-image: url(img/Pic6.png);
+   display: flex;                  /* establish flex container */
+   flex-direction: row;            /* default value; can be omitted */
+   flex-wrap: nowrap;              /* default value; can be omitted */
+   justify-content: space-evenly;
+  }
+
+  .sec8left{
+    margin-left: 4%;
+    margin-right: 55%;
+    color: black;
+  }
+
+  /* Seccion 9: Carrusel ----------------------- */
+  .bg-img9{
+    background-color: #025923;
+    background-image: url(img/Cuadrícula\ de\ repetición\ 9.png);
+
+   }
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/4 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.carrusel{
+  display: block;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+/* indicadores circulares */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.carrtltdiv{
+text-align: center;
+padding-top: 25px;
+}
+
+.carrtlt{
+font-weight: bold;
+font-size: 2vmax;
+color: white;
+}
+
+.divslidebtn{
+  text-align: center;
+  margin-top: 45px;
+}
+
+.slidebtn{
+color: black;
+background-color: white;
+border-color: white;
+font-weight: bold;
+font-size: 15px;
+padding: 10px 35px;
+}
+
+
+  /* Footer ----------------------- */
+  
+  /* Style the navigation bar links */
+  footer div {
+  /*float: left; /* Make sure that the links stay side-by-side */
+  display: block; /* Change the display to block, for responsive reasons (see below) */
+  color: black; /* White text color */
+  text-align: center; /* Center the text */
+  padding: 20px 0px; /* Add some padding */
+  text-decoration: none; /* Remove underline */
+}
+
+footer p {
+  margin: auto;
+}
+
+footer div.footertextleft {
+  float: left; /* Float a link to the left */
+  width: 33%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+/* Right-aligned link */
+footer div.footercenter {
+  float: left; /* Float a link to the right */
+  width: 34%;
+  padding: 27px 0;
+}
+
+footer div.footertextright {
+  float: right; /* Float a link to the right */
+  width: 33%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+  
+  .logo{
+  display: block;
+  margin:auto;
+  }
+  footer{
+    background: #f5f6fa;
+  }
