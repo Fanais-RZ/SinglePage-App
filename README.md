@@ -1,2 +1,2 @@
-# Pure CSS/Javascript FrontEnd Test
- >Test de FrontEnd
+# Pure CSS/Javascript Single Page App
+ >Interface includes a functional timer.
