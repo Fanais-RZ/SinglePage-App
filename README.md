@@ -1,2 +1,2 @@
-# Pure CSS/Javascript Single Page App
- >Interface includes a functional timer.
+# Single Page App CSS/Javascript
+ >Includes a functional timer.
